@@ -4,4 +4,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity"/>
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/hole3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole2"
+        app:layout_constraintTop_toTopOf="@+id/hole2" />
+
+    <Button
+        android:id="@+id/hole4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="328dp"
+        android:text="o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hole1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="236dp"
+        android:text="o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hole2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole1"
+        app:layout_constraintTop_toTopOf="@+id/hole1" />
+
+    <Button
+        android:id="@+id/hole9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole8"
+        app:layout_constraintTop_toTopOf="@+id/hole8" />
+
+    <Button
+        android:id="@+id/hole6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole5"
+        app:layout_constraintTop_toTopOf="@+id/hole5" />
+
+    <Button
+        android:id="@+id/hole8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole7"
+        app:layout_constraintTop_toTopOf="@+id/hole7" />
+
+    <Button
+        android:id="@+id/hole7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="412dp"
+        android:text="o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hole5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="o"
+        app:layout_constraintStart_toEndOf="@+id/hole4"
+        app:layout_constraintTop_toTopOf="@+id/hole4" />
+
+    <TextView
+        android:id="@+id/scoretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="512dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="652dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
